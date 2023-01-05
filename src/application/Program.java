@@ -1,7 +1,6 @@
 package application;
 
-import crud.Create;
-import crud.Read;
+import db.Transaction;
 
 public class Program {
 
@@ -9,7 +8,13 @@ public class Program {
 //		Read read = new Read();
 //		read.testRead();
 		
-		Create create = new Create();
-		create.testCreate();
+//		Create create = new Create();
+//		create.testCreate();
+		
+//		Delete delete = new Delete();
+//		delete.testDelete();
+		
+		Transaction transaction = new Transaction();
+		transaction.testTransaction();
 	}
 }
