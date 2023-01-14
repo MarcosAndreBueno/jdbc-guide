@@ -1,6 +1,6 @@
 package application;
 
-import db.Transaction;
+import model.entities.Department;
 
 public class Program {
 
@@ -14,7 +14,10 @@ public class Program {
 //		Delete delete = new Delete();
 //		delete.testDelete();
 		
-		Transaction transaction = new Transaction();
-		transaction.testTransaction();
+//		Transaction transaction = new Transaction();
+//		transaction.testTransaction();
+		
+		Department obj = new Department(1, "Books");
+		System.out.println(obj);
 	}
 }
