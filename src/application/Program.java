@@ -43,11 +43,11 @@ public class Program {
 //		}
 		
 
-		System.out.println("\n=== TEST 3: seller findAll =====");
-		List<Seller> list = sellerDao.findAll();
-		for (Seller obj : list) {
-			System.out.println(obj);
-		}
+//		System.out.println("\n=== TEST 3: seller findAll =====");
+//		List<Seller> list = sellerDao.findAll();
+//		for (Seller obj : list) {
+//			System.out.println(obj);
+//		}
 		
 //		System.out.println("\n=== TEST 4: seller insert =====");
 //		Department department = new Department(2, null);
@@ -65,5 +65,6 @@ public class Program {
 //		System.out.println("\n=== TEST 6: seller delete =====");
 //		sellerDao.deleteById(10);
 //		System.out.println("Delete completed");
+		
 	} 
 }
